@@ -1,9 +1,8 @@
 # Sprint_9_Project
-TripleTen Sprint 9 Final Project
 
-My Sprint 9, Machine Learning in Business, project. Sprint length was 3 weeks.
+*My Sprint 9, Machine Learning in Business, project. Sprint length was 3 weeks.*
 
-Instructions provided by TripleTen program:
+***Instructions provided by TripleTen program:***
 
 Congratulations! You’ve completed another training platform course. Now is the perfect time to test your skills and solve a new machine learning problem. For this project, you will be on your own.
 
@@ -13,7 +12,7 @@ Usually, this process has to be repeated several times until you get the green l
 
 Your project will be considered complete once the project reviewer approves it.
 
-Project description
+# Project description
 
 You work for the OilyGiant mining company. Your task is to find the best place for a new well.
 
@@ -26,7 +25,7 @@ Steps to choose the location:
 
 You have data on oil samples from three regions. Parameters of each oil well in the region are already known. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique.
 
-Project instructions
+# Project instructions
 
 1. Download and prepare the data. Explain the procedure.
 2. Train and test the model for each region:
@@ -35,7 +34,6 @@ Project instructions
     2.3. Save the predictions and correct answers for the validation set.
     2.4. Print the average volume of predicted reserves and model RMSE.
     2.5. Analyze the results.
-
 3. Prepare for profit calculation:
     3.1. Store all key values for calculations in separate variables.
     3.2. Calculate the volume of reserves sufficient for developing a new well without losses. Compare the obtained value with the average volume of reserves in each region.
@@ -49,17 +47,17 @@ Project instructions
     5.2. Find average profit, 95% confidence interval and risk of losses. Loss is negative profit, calculate it as a probability and then express as a percentage.
     5.3. Provide findings: suggest a region for development of oil wells and justify the choice.
 
-Data description
+# Data description
 
 Geological exploration data for the three regions are stored in files:
-- geo_data_0.csv. download dataset
-- geo_data_1.csv. download dataset
-- geo_data_2.csv. download dataset
-- id — unique oil well identifier
-- f0, f1, f2 — three features of points (their specific meaning is unimportant, but the features themselves are significant)
-- product — volume of reserves in the oil well (thousand barrels).
+- geo_data_0.csv. [download dataset](https://drive.google.com/file/d/1hBhy_Ia_ttD5GCyZKJc20BtNudRr35EW/view)
+- geo_data_1.csv. [download dataset](https://drive.google.com/file/d/1ycKkk9Riqwsq1oundZD3SLgB5apojwTy/view)
+- geo_data_2.csv. [download dataset](https://drive.google.com/file/d/1VnbKE_VcAe5zZtEM3ztSoi1D0PDKyRN3/view)
+- *id* — unique oil well identifier
+- *f0, f1, f2* — three features of points (their specific meaning is unimportant, but the features themselves are significant)
+- *product* — volume of reserves in the oil well (thousand barrels).
 
-Conditions:
+**Conditions:**
 - Only linear regression is suitable for model training (the rest are not sufficiently predictable).
 - When exploring the region, a study of 500 points is carried with picking the best 200 points for the profit calculation.
 - The budget for development of 200 oil wells is 100 USD million.
@@ -67,7 +65,7 @@ Conditions:
 - After the risk evaluation, keep only the regions with the risk of losses lower than 2.5%. From the ones that fit the criteria, the region with the highest average profit should be selected.
 - The data is synthetic: contract details and well characteristics are not disclosed.
 
-Project evaluation
+# Project evaluation
 
 We’ve put together the evaluation criteria for the project. Read this carefully before moving on to the task.
 
@@ -76,7 +74,7 @@ Here’s what the reviewers will look at when reviewing your project:
 - Have you followed all the steps of the instructions?
 - Have you taken into account all the business conditions?
 - What are your findings about the task study?
-- Have you applied the Bootstrapping technique correctly?
+- Have you applied the *Bootstrapping* technique correctly?
 - Have you suggested the best region for well development? Is the choice justified?
 - Did you avoid code duplication?
 - Have you kept to the project structure and kept the code neat?
